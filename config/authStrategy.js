@@ -42,7 +42,7 @@ passport.use(
       return done(null, profile);
     }
   )
-);
+)
 
 //implement the google strategy
 passport.use(
